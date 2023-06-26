@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        
+        img {
+            height: 150px;
+            border-radius: 50%;
+        }
+        
+
+        
+        h1 {
+            color: #333;
+            font-size: 32px;
+            animation: fade 2s ease-in-out;
+        }
+        
+        @keyframes fade {
+            0% {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        hr {
+            border: none;
+            border-top: 2px solid #666;
+            margin: 20px 0;
+            animation: expand 1s ease-in-out;
+        }
+        
+        @keyframes expand {
+            0% {
+                width: 0;
+            }
+            100% {
+                width: 100%;
+            }
+        }
+        
+        h2 {
+            color: #666;
+            font-size: 24px;
+            animation: colorChange 3s infinite;
+        }
+        
+        @keyframes colorChange {
+            0% {
+                color: #666;
+            }
+            50% {
+                color: #ff7f50;
+            }
+            100% {
+                color: #666;
+            }
+        }
+        
+        ul {
+            list-style-type: square;
+            animation: scale 2s ease-in-out;
+        }
+        
+        @keyframes scale {
+            0% {
+                transform: scale(0);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+        
+        a {
+            color: #007bff;
+            text-decoration: none;
+            animation: shake 2s infinite;
+        }
+        
+        @keyframes shake {
+            0% {
+                transform: translateX(0);
+            }
+            25% {
+                transform: translateX(-5px);
+            }
+            50% {
+                transform: translateX(5px);
+            }
+            75% {
+                transform: translateX(-5px);
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }
+        
+        p {
+            animation: fadeIn 2s ease-in-out;
+        }
+        
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        
+        footer {
+            background-color: #f5f5f5;
+            padding: 20px;
+            text-align: center;
+            animation: slideUp 2s ease-in-out;
+        }
+        
+        @keyframes slideUp {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <img src="./my image/WhatsApp Image 2022-09-17 at 3.46.58 PM - Copy.jpeg" height="150"/>
+    <h1>Omar Sharief</h1> 
+    <hr>
+    <h2>Objective</h2>
+    <p>To acquire valuable knowledge and skills that I have learnt from school 
+        in an actual job environment. I offer my service and determination to 
+        be an asset to your company throughout the duration of my training 
+        period.</p>
+    <hr>
+    <h2>Education</h2>
+    <ul>
+        <li><strong>Primary Education</strong> - International Indian School, Ajman</li>
+        <li><strong>10th Standard</strong> - Ikhlas English High School, Shimoga</li>
+        <li><strong>12th Standard</strong> - Govt PU College BH Road, Shimoga</li>
+        <li><strong>UG</strong> - Bachelor of Computer Application <i>(Currently pursuing)</i></li>
+    </ul>
+    <hr>
+    <h2>Skills</h2>
+    <ul type="square">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Microsoft Office</li>
+        <li>Video Editing</li>
+    </ul>
+    <hr>
+    <h2>Certification</h2>
+    <a href="./certificate.html">Programming with Python Training</a>
+    <hr>
+    <h2>Declaration</h2>
+    <p>I, Mohammad Omar Sharieff, cerify to the best of my knowledge and believe that the given data describes my qualification, experience and me.</p>
+    <hr>
+    <h2>Contact Information</h2>
+    <footer>
+        <div class="container">
+          <ul type="none">
+            <li><a href="mailto:omarsharief642002@gmail.com">omarsharief642002@gmail.com</a></li>
+            <li><a href="tel:+9945011868">994-501-1868</a></li>
+          </ul>
+          <p>&copy; 2023 Omar Sharieff</p>
+        </div>
+    </footer>
+</body>
+</html>
